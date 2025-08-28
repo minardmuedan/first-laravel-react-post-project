@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "esnext",
+        "jsx": "react-jsx",
+        "strict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "paths": {
+            "@/*": ["./resources/js/*"]
+        }
+    },
+
+    "include": ["resources/js/**/*"]
+}
