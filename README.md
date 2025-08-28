@@ -4,14 +4,27 @@ A simple project to manage posts.
 
 ## Setup
 
-1. **Merge Database**  
+1. **Install Packages**  
+   Install PHP and Composer dependencies:
+
+    ```bash
+    composer install
+    ```
+
+    If using Node packages (e.g., for frontend):
+
+    ```bash
+    npm install
+    ```
+
+2. **Merge Database**  
    Run your database migrations to merge the latest schema:
 
     ```bash
     php artisan migrate
     ```
 
-2. **Run Seeds**  
+3. **Run Seeds**  
    Seed the database with initial data:
 
     ```bash
