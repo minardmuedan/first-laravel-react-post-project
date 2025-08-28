@@ -4,15 +4,19 @@ A simple project to manage posts.
 
 ## Setup
 
-**Merge Database**  
-Run your database migrations to merge the latest schema:
+1. **Merge Database**  
+   Run your database migrations to merge the latest schema:
 
-php artisan migrate
+    ```bash
+    php artisan migrate
+    ```
 
-**Run Seeds**  
-Seed the database with initial data:
+2. **Run Seeds**  
+   Seed the database with initial data:
 
-php artisan db:seed
+    ```bash
+    php artisan db:seed
+    ```
 
 ## Routes
 
